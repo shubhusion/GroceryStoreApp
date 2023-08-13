@@ -1,6 +1,6 @@
 
 <div align="center">
-    <img src="static/Freshpicks_logo.png" alt="Project Logo" width="200">
+    <img src="static/Freshpicks_Logo.png" alt="Project Logo" width="200">
     <h1>Freshpicks Grocery Store Application</h1>
     <p>Short project description goes here. A catchy tagline can be added as well.</p>
     <a href="https://github.com/your-username/your-project-name"><strong>Explore the Docs »</strong></a>
