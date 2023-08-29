@@ -27,6 +27,10 @@ with app.app_context():
     login_manager.init_app(app)
     db.init_app(app)
     db.create_all()
+    newuser = User(
+            username="Shubham27", name="Shubham Sharma", password="shubham27", email="shubham27.sharma03@gmail.com", admin=True)
+    db.session.add(newuser)
+    db.session.commit()
 
 login_manager.login_view = "user_login"
 
